@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 0px 22px;
+}
+
+.inputBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.employee,.profession,.age{
+    display: flex;
+    flex-direction: column;
+    gap: 4;
+    border: none;
+}
+.employee,.profession,.age,input{
+    width: 250px;
+  padding: 8px 12px;
+  background-color: black;
+  margin-top: 7px;
+}
+input{
+    border: 1px solid white;
+    color: white;
+}
+.btn{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 100px;
+    padding: 8px 12px;
+}
+.add-emp {
+    margin: 12px 12px;
+    font-size: 1.2rem;
+  }
+  .msg{
+    margin: 12px 12px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    
+  }
+  .success-msg{
+    color: green;
+  }
+  .error-msg{
+   color: red;
+  }
+  .data-not-found{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .cointainer2{
+    width: 400px;
+  }
+  .list_box {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 5px;
+  }
+  .emp-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 22px;
+  }
+  .list_box p {
+    padding: 1px 12px;
+  }
+  .delete-btn {
+    width: 100px;
+    height: 40px;
+    margin-right: 600px;
+    border-radius: 22px;
+  }
+ 
